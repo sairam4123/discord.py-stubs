@@ -47,6 +47,7 @@ class VoiceRegion(Enum):
     russia: str
     japan: str
     southafrica: str
+    south_korea: str
     india: str
     europe: str
     dubai: str
@@ -202,6 +203,7 @@ class ActivityType(Enum):
     listening: int
     watching: int
     custom: int
+    competing: int
     def __int__(self) -> int: ...
 
 class HypeSquadHouse(Enum):
